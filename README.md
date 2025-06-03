@@ -64,15 +64,16 @@ Open http://localhost:8000/docs to access API docs.
 
 ### Running Tests
 Run Pytest:
-     ```bash
-     pytest
+   ```bash
+   pytest
+   ```
 
 ### API Usage Example
 
-     ```bash
-     curl -X POST http://localhost:8000/predict \
-     -H "Content-Type: application/json" \
--d'{"age":0.038,"sex":0.050,"bmi":0.062,"bp":0.022,"s1":-0.044,"s2":-0.035,"s3":-0.043,"s4":-0.002,"s5":0.020,"s6":-0.018}'
+   ```bash
+   curl -X POST http://localhost:8000/predict \
+   -H "Content-Type: application/json" \
+   -d'{"age":0.038,"sex":0.050,"bmi":0.062,"bp":0.022,"s1":-0.044,"s2":-0.035,"s3":-0.043,"s4":-0.002,"s5":0.020,"s6":-0.018}'
 
 
 
